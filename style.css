@@ -1,0 +1,264 @@
+
+
+body{
+    background-color: #ffefd7;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*navigator bar*/
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+ul{
+    margin: 0;
+}
+
+.site-name{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #C2B4AB;
+}
+
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+
+/*dashboard*/
+
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.english-c{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: italic
+}
+
+.kor-comment{
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+
+
+.sample{
+    color: #000000;
+    background-color: rgb(247, 170, 134);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.sample:hover{
+    background-color: transparent;
+    color: rgb(247, 170, 134);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    transition: none;
+}
+
+.highlight{
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px black;
+}
+
+.highlight:hover{
+    color: #000000;
+    background-color: rgb(255, 226, 133);
+    transition: none
+}
+
+.type1:hover{
+    background-color: rgb(162, 199, 89);
+}
+
+.eng-comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: italic;
+
+    letter-spacing: -0.3px;
+}
+
+/*recent works*/
+
+.recent-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    weight: 700;
+    color: #C2B4AB;
+
+    text-align: right;
+    margin-top: 100px;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contect{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #C2B4AB;
+    border-top: 1px solid #C2B4AB;
+    border-bottom: 1px solid #C2B4AB;
+    margin-bottom: 10px;
+}
+
+.links{
+    font-family: 'Montserrat' sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*INFO SECTION*/
+
+/*profile-section*/
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 100px 100px
+}
+
+#profile-picture{
+    width:400px;
+    margin-right: 60px;
+}
+
+.introduction>h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.introduction>p{
+    font-family: 'Noto Sans KR' sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+    margin-bottom: 40px;
+}
+
+#plan{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+/*value section*/
+
+.value-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 30px 100px;
+}
+
+.value-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.value{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.value-icon{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 2px solid #c2b4ab;
+    border-radius: 100px;
+}
+
+.value-intro{
+    margin-left: 30px;
+}
+
+
+.value-name{
+    font-family: 'Montserrat'sans-serif;
+    font-weight: 700px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.value-exp{
+    font-family: 'Noto Sans KR',sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0px;
+
+}
+
+
+.footer-comment{
+    text-align: center;
+}
+
+a[title="Freepik"]:hover{
+    color:#000000;
+    text-decoration: underline;
+}
+
+a[title="Flaticon"]:hover{
+    color: #000000;
+    text-decoration: underline;
+}
